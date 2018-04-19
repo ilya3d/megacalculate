@@ -1,0 +1,30 @@
+{
+    "name": "ilya3d/megacalculate",
+    "type": "library",
+    "description": "Библиотека для вычисления математических выражений",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Ilya Kolesnikov",
+            "homepage": "https://github.com/ilya3d",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "sort-package": true
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4":{
+            "MegaCalculate\\": "src/MegaCalculate/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "scripts": {
+        "test": "phpunit --color=always"
+    }
+}
